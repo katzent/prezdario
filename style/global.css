@@ -87,6 +87,7 @@ i1 {
 
 i {
     display: inline;
+    color: var(--text);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-style: italic;
