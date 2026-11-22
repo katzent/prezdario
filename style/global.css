@@ -84,3 +84,11 @@ i1 {
     font-style: italic;
     filter: var(--brightness-text);
 }
+
+i {
+    display: inline;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    filter: var(--brightness-text);
+}
