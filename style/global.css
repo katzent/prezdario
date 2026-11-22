@@ -1,0 +1,43 @@
+:root {
+    --background: #191919;
+    --text: #8b8b8b;
+    --font-text: 14px/1.4 "Open Sans", system-ui, sans-serif;
+    --font-title: 500 32px/1.6 "Pirata One";
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font: var(--font-text);
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+}
+
+ul {
+    list-style-type: "✧ ";
+    padding: 0 1.4rem;
+    margin: 0;
+}
+
+li {
+    margin: 1rem 0 2.8rem 0;
+    text-align: justify;
+}
+
+summary {
+    cursor: pointer;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
