@@ -1,0 +1,86 @@
+/*Couleurs et polices du forum*/
+:root {
+    --background: #191919;
+    --text: #8b8b8b;
+    --font-text: 14px/1.4 "Open Sans", system-ui, sans-serif;
+    --font-title: 500 32px/1.6 "Pirata One";
+    --accent0: #074539;
+    --accent1: #532953;
+    --accent2: #276d5f;
+    --accent3: #7d487d;
+    --textColor3: #a5a5a5;
+    --brightness-text: brightness(1.2);
+    --smaller-size: 13px;
+    --font3: "Roboto Condensed";
+}
+
+/*Mise en page*/
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font: var(--font-text);
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 1.4rem;
+    margin: 0;
+}
+
+li {
+    margin: 1rem 0 2.8rem 0;
+    text-align: justify;
+}
+
+/*Équivalent du spoiler*/
+summary {
+    cursor: pointer;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+/*Balises du forum*/
+tag {
+    display: inline;
+    background: linear-gradient(120deg, var(--accent0), var(--accent1) 100%);
+    border-radius: 3px;
+    padding: 1px 5px;
+    color: var(--textColor3);
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-size: var(--smaller-size);
+}
+
+m1 {
+    display: inline;
+    color: var(--accent3);
+    letter-spacing: 1.5px;
+    filter: var(--brightness-text);
+    font-family: var(--font3), sans-serif;
+    text-transform: uppercase;
+    font-size: var(--smaller-size);
+}
+
+i1 {
+    display: inline;
+    background: -webkit-linear-gradient(120deg, var(--accent3), var(--accent2) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    filter: var(--brightness-text);
+}
